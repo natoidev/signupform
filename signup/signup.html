@@ -29,23 +29,3 @@
     <p>Already Have An Account <a href="login.htm" target="_blank" title="Click On This Link If You Have An Account">Login</a></p>
 </body>
 </html>
-
-
-<?php 
- $name = $_POST["fname"];
- $lname = $_POST["lname"];
- $pass = $_POST["pass"];
- $cpass = $_POST["cpass"];
-
-  if($name == $lname){
-    echo "First Name & Last Name can't Be Same" . "<br>";
-  }
-  else{
-    echo "tnx, you filed all fileds successfully" . "<br>";
-  } 
-    
-  if ($pass < 8 ) {
-    echo "Password Must Be  8 Character";
-  }
- 
-?>
