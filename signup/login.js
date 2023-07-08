@@ -1,1 +1,1 @@
-alert("You Have To Create An Account To Login");
+window.alert("You Have To Create An Account To Login");
